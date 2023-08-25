@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Nobel Prize Voronoi Treemap</title>
+    <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <script src="https://rawcdn.githack.com/Kcnarf/d3-weighted-voronoi/v1.0.1/build/d3-weighted-voronoi.js"></script>
+    <script src="https://rawcdn.githack.com/Kcnarf/d3-voronoi-map/v1.2.0/build/d3-voronoi-map.js"></script>
+    <script src="https://rawcdn.githack.com/Kcnarf/d3-voronoi-treemap/v1.1.0/build/d3-voronoi-treemap.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        svg {
+            background-color: rgb(250, 250, 250);
+        }
+
+        .cell {
+            stroke: white;
+            stroke-width: 1px;
+        }
+
+        .label {
+            text-anchor: middle;
+            fill: white;
+        }
+
+        .hoverer {
+            fill: transparent;
+            stroke: white;
+            stroke-width: 0px;
+        }
+
+        .hoverer:hover {
+            stroke-width: 3px;
+        }
+
+        .legend {
+            font-size: 14px;
+            position: absolute;
+            top: 40%;
+            left: 10px;
+        }
+
+        .title {
+            font-size: 24px;
+            margin-top: -50px;
+        }
+
+        .description {
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .custom-button {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            padding: 5px 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #000000;
+            background-color: #f3c883;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        
+        .custom-button:hover {
+            background-color: #c56f12;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <button class="custom-button" onclick="window.location.href='./索引.html'">home</button>
+    <div class="title">Nobel Prize Voronoi Treemap</div>
+    <div class="description">This treemap represents the distribution of Nobel Prizes in different categories and regions. Hover over each block to see more details.</div>
+    <svg></svg>
+
+    <script>
+        var width = 1300,
+            height = 750;
+
+        var colorMap = {
+            "Chemistry": "#66c2a5",
+            "Economics": "#e34a33",
+            "Literature": "#a6bddb",
+            "Medicine": "#99d8c9",
+            "Peace": "#fdbb84",
+            "Physics": "#c51b8a"
+        };
+
+        var svg = d3.select("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .append("g")
+            .attr("transform", "translate(50,50)");
+
+        var voronoiTreemap = d3.voronoiTreemap();
+
+        d3.json("nobel_category.json", function (error, rootData) {
+            if (error) throw error;
+
+            var hierarchy = d3.hierarchy(rootData).sum(function (d) {
+                return d.value;
+            });
+
+            voronoiTreemap.size([width - 100, height - 100])(hierarchy);
+
+            const cells = svg.selectAll('path')
+                .data(hierarchy.leaves())
+                .enter()
+                .append('path')
+                .attr('d', d => `M${d.polygon.join('L')}Z`)
+                .attr('fill', d => colorMap[d.parent.data.name])
+                .attr('stroke', 'white');
+
+            const fontSizeScale = d3.scaleSqrt().domain([1, 100]).range([10, 30]);
+
+            const labels = svg.selectAll('.label')
+                .data(hierarchy.leaves())
+                .enter()
+                .append('text')
+                .attr('x', d => d.polygon.site.x)
+                .attr('y', d => d.polygon.site.y)
+                .attr('text-anchor', 'middle')
+                .attr('font-size', d => fontSizeScale(d.value))
+                .text(d => {
+                    if (["South America", "North America"].includes(d.data.name)) {
+                        return d.data.name.split(" ")[0];
+                    }
+                    return d.data.name;
+                })
+                .append('tspan')
+                .attr('x', d => d.polygon.site.x)
+                .attr('dy', '1.2em')
+                .text(d => {
+                    if (["South America", "North America"].includes(d.data.name)) {
+                        return d.data.name.split(" ")[1];
+                    }
+                    return "";
+                });
+
+            const hoverers = svg.selectAll('.hoverer')
+                .data(hierarchy.leaves())
+                .enter()
+                .append('path')
+                .attr('class', 'hoverer')
+                .attr('d', d => `M${d.polygon.join('L')}Z`);
+
+            hoverers.append("title")
+                .text(d => `Category: ${d.parent.data.name}\nRegion: ${d.data.name}\nTotal Nobel Prize Winners: ${d.value}`);
+
+
+            var legend = d3.select('body').append("div")
+                .attr("class", "legend");
+
+            legend.append("div").text("Category").style("margin-bottom", "10px");
+
+            var legendItems = legend.selectAll(".legend-item")
+                .data(Object.keys(colorMap))
+                .enter().append("div")
+                .attr("class", "legend-item");
+
+            legendItems.append("div")
+                .style("width", "20px")
+                .style("height", "20px")
+                .style("display", "inline-block")
+                .style("margin-right", "5px")
+                .style("background-color", d => colorMap[d]);
+
+            legendItems.append("span")
+                .text(d => d);
+        });
+    </script>
+</body>
+
+</html>

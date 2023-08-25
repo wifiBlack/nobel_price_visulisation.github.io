@@ -1,0 +1,884 @@
+id,year,birth_city,birth_country,birth_city_latitude,birth_city_longitude
+1,1901,Rotterdam,Netherlands,51.9244201,4.4777325
+2,1901,Paris,France,48.856614,2.3522219
+3,1901,Hansdorf (Lawice),Prussia (Poland),53.5826184,19.6568465
+4,1901,Geneva,Switzerland,46.2043907,6.1431577
+5,1901,Paris,France,48.856614,2.3522219
+6,1901,Lennep (Remscheid),Prussia (Germany),51.1897588,7.2666284
+7,1902,Euskirchen,Prussia (Germany),50.6574392,6.7899945
+8,1902,Garding,Schleswig (Germany),54.3295187,8.7865482
+9,1902,Almora,India,29.5892407,79.646666
+10,1902,Geneva,Switzerland,46.2043907,6.1431577
+11,1902,Tramelan,Switzerland,47.2235029,7.102975
+12,1902,Arnhem,Netherlands,51.9851034,5.8987296
+13,1902,Zonnemaire,Netherlands,51.7130521,3.9518196
+14,1903,Vik,Sweden,55.6144259,14.2851622
+15,1903,Kvikne,Norway,62.5812519,10.2828531
+16,1903,Thorshavn,Faroe Islands (Denmark),62.0107248,-6.7740852
+17,1903,Fareham,United Kingdom,50.8548464,-1.1865868
+18,1903,Paris,France,48.856614,2.3522219
+19,1903,Paris,France,48.856614,2.3522219
+20,1903,Warsaw,Russian Empire (Poland),52.2296756,21.0122287
+21,1904,Glasgow,Scotland,55.8616704,-4.2583345
+22,1904,Maillane,France,43.832349,4.782098
+23,1904,Madrid,Spain,40.4167754,-3.7037902
+24,1904,Ryazan,Russia,54.6095418,39.7125857
+26,1904,Langford Grove Maldon Essex,United Kingdom,51.7597899,0.6704065
+27,1905,Berlin,Prussia (Germany),52.5200066,13.404954
+28,1905,Wola Okrzejska,Poland,51.7494805,22.1336434
+29,1905,Clausthal (Clausthal-Zellerfeld),Germany,51.8080063,10.340707
+30,1905,Prague,Austrian Empire (Czech Republic),50.0755381,14.4378005
+31,1905,Pressburg (Bratislava),Hungary (Slovakia),47.162494,19.503304
+32,1906,Paris,France,48.856614,2.3522219
+33,1906,Val di Castello,Tuscany (Italy),43.9579689,10.2639186
+34,1906,Corteno,Italy,46.1652608,10.2365387
+35,1906,Petilla de Arag¨®,Spain,42.4614395,-1.0924468
+36,1906,New York,United States of America,40.7127753,-74.0059728
+37,1906,Cheetham Hill,United Kingdom,53.5021101,-2.2368975
+38,1907,Munich,Bavaria (Germany),48.1351253,11.5819806
+39,1907,Bombay,British India (India),19.0759837,72.8776559
+40,1907,Paris,France,48.856614,2.3522219
+41,1907,Milan,Austrian Empire (Italy),45.4642035,9.189982
+42,1907,Autun,France,46.950914,4.301565
+43,1907,Strelno (Strzelno),Prussia (Poland),52.62772,18.17266
+44,1908,Nelson,New Zealand,-41.2985321,173.2443635
+45,1908,Aurich,East Friesland (Germany),53.472548,7.4833137
+46,1908,Kharkov (Kharkiv),Russian Empire (Ukraine),49.9935,36.230383
+47,1908,Strehlen (Strzelin),Prussia (Poland),50.7812167,17.0646124
+48,1908,Gothenburg,Sweden,57.70887,11.97456
+49,1908,N?stved,Denmark,55.224613,11.759207
+50,1908,Hollerich,Luxembourg,49.6040705,6.1121429
+51,1909,Riga,Russian Empire (Latvia),56.9676941,24.1056221
+52,1909,M?rbacka,Sweden,57.7401023,13.4196967
+53,1909,Berne,Switzerland,46.9479739,7.4474468
+54,1909,Ostend,Belgium,51.2246631,2.9091818
+55,1909,La Fl¨¨che,France,47.69589,-0.074646
+56,1909,Bologna,Italy,44.494887,11.3426163
+57,1909,Fulda,Hesse-Kassel (Germany),51.3127114,9.4797461
+58,1910,Koenigsberg (Kaliningrad),Germany (Russia),51.165691,10.451526
+59,1910,Berlin,Prussia (Germany),52.5200066,13.404954
+60,1910,Rostock,Mecklenburg (Germany),54.0924406,12.0991466
+62,1910,Leiden,Netherlands,52.1601144,4.4970097
+63,1911,Warsaw,Russian Empire (Poland),52.2296756,21.0122287
+64,1911,Ghent,Belgium,51.0500182,3.7303351
+65,1911,Landskrona,Sweden,55.8703477,12.8300802
+66,1911,Amsterdam,Netherlands,52.3675734,4.9041389
+67,1911,Vienna,Austria,48.2081743,16.3738189
+68,1911,Gaffken (Parusnoye),Prussia (Russia),51.58842,39.5269543
+69,1912,Cherbourg,France,49.6338979,-1.622224
+70,1912,Carcassonne,France,43.2132151,2.3517703
+71,1912,Bad Salzbrunn,Prussia (Germany),50.810462,16.247897
+72,1912,Sainte-Foy-l¨¨s-Lyon,France,45.735237,4.804827
+73,1912,Clinton,United States of America,43.0484029,-75.3785034
+74,1912,Stenstorp,Sweden,58.2740016,13.7142087
+75,1913,Mulhouse,France,47.750839,7.335888
+76,1913,Calcutta,India,22.572646,88.363895
+77,1913,Paris,France,48.856614,2.3522219
+78,1913,Brussels,Belgium,50.8476424,4.3571696
+79,1913,Groningen,Netherlands,53.2193835,6.5665018
+80,1914,Germantown,United States of America,40.0292648,-75.174598
+81,1914,Vienna,Austria,48.2081743,16.3738189
+82,1914,Pfaffendorf,Germany,50.911275,14.0748638
+83,1915,Karlsruhe,Germany,49.0068901,8.4036527
+84,1915,Clamecy,France,47.459605,3.518769
+85,1915,Wigton,United Kingdom,54.825544,-3.161231
+86,1915,Adelaide,Australia,-34.9284989,138.6007456
+87,1916,Olshammar,Sweden,58.7536282,14.7980293
+88,1917,Roholte,Denmark,55.194519,12.089752
+89,1917,Fredericia,Denmark,55.5689298,9.749517
+91,1917,Widnes,United Kingdom,53.361024,-2.733637
+92,1918,Breslau (Wroclaw),Prussia (Poland),51.1078852,17.0385376
+93,1918,Kiel,Schleswig (Germany),54.3232927,10.1227652
+94,1919,Liestal,Switzerland,47.4866143,7.7334272
+95,1919,Soignies,Belgium,50.5793035,4.0666287
+96,1919,Staunton,United States of America,38.149576,-79.0716958
+97,1919,Schickenhof,Germany,51.165691,10.451526
+98,1920,Briesen,Prussia (Germany),52.3401613,14.2767893
+99,1920,Lom,Norway,61.8377182,8.5686169
+100,1920,Gren?,Denmark,56.411808,10.894919
+101,1920,Paris,France,48.856614,2.3522219
+102,1920,Fleurier,Switzerland,46.9023107,6.5808426
+103,1921,Eastbourne,United Kingdom,50.768035,0.290472
+104,1921,Paris,France,48.856614,2.3522219
+105,1921,Stockholm,Sweden,59.3293235,18.0685808
+106,1921,Stavanger,Norway,58.9699756,5.7331073
+107,1921,Ulm,Germany,48.4010822,9.9876076
+108,1922,Harborne,United Kingdom,52.4597094,-1.961668
+109,1922,Madrid,Spain,40.4167754,-3.7037902
+110,1922,Bristol,United Kingdom,51.454513,-2.58791
+111,1922,Hanover,Germany,52.3758916,9.7320104
+112,1922,Kristiania (Oslo),Norway,59.9138688,10.7522454
+113,1922,Copenhagen,Denmark,55.6760968,12.5683371
+114,1923,Laibach (Ljubljana),Austria-Hungary (Slovenia),46.0569465,14.5057515
+115,1923,Dublin,Ireland,53.3498053,-6.2603097
+116,1923,Alliston,Canada,44.1539514,-79.8691544
+117,1923,Cluny,Scotland,57.204922,-2.5173009
+118,1923,Morrison,United States of America,41.809751,-89.9651186
+119,1924,Kobiele Wielkie,Russian Empire (Poland),51.0315709,19.6249295
+120,1924,Semarang,Java,-7.0051453,110.4381254
+121,1924,Lund,Sweden,55.7046601,13.1910073
+122,1925,Vienna,Austrian Empire (Austria),48.2081743,16.3738189
+123,1925,Dublin,Ireland,53.3498053,-6.2603097
+124,1925,Birmingham,United Kingdom,52.486243,-1.890401
+125,1925,Marietta,United States of America,39.415352,-81.4548436
+126,1925,Hamburg,Germany,53.5488282,9.9871703
+127,1925,Hamburg,Germany,53.5488282,9.9871703
+128,1926,Fler?ng,Sweden,60.128161,18.643501
+129,1926,Nuoro,Italy,40.3202421,9.3264377
+130,1926,Silkeborg,Denmark,56.176362,9.5549216
+131,1926,Nantes,France,47.218371,-1.553621
+132,1926,Berlin,Germany,52.5200066,13.404954
+133,1926,Lille,France,50.62925,3.057256
+134,1927,Pforzheim,Germany,48.8921862,8.6946286
+135,1927,Paris,France,48.856614,2.3522219
+136,1927,Wels,Austria,48.16542,14.03664
+137,1927,Paris,France,48.856614,2.3522219
+138,1927,Bremen,Germany,53.0792962,8.8016937
+139,1927,Wooster,United States of America,40.798237,-81.9399145
+140,1927,Glencorse,Scotland,55.8619946,-3.2526271
+141,1928,Berlin,Germany,52.5200066,13.404954
+142,1928,Kalundborg,Denmark,55.686429,11.089188
+143,1928,Rouen,France,49.443232,1.099971
+144,1928,Dewsbury,United Kingdom,53.689833,-1.6296949
+145,1929,Manchester,United Kingdom,53.4807593,-2.2426305
+146,1929,Augsburg,Germany,48.3705449,10.89779
+147,1929,L¨¹beck,Germany,53.8654673,10.6865593
+148,1929,Nijkerk,Netherlands,52.2224835,5.4835625
+149,1929,Eastbourne,United Kingdom,50.768035,0.290472
+150,1929,Potsdam,United States of America,44.6697805,-74.9813084
+151,1929,Dieppe,France,49.922992,1.077483
+152,1930,Hoechst,Germany,50.102482,8.5474571
+153,1930,Sauk Centre,United States of America,45.737465,-94.9525216
+154,1930,Vienna,Austrian Empire (Austria),48.2081743,16.3738189
+155,1930,Tr?n?,Sweden,61.3965122,16.8336653
+156,1930,Tiruchirappalli,India,10.7904833,78.7046725
+157,1931,Cologne,Germany,50.937531,6.9602786
+158,1931,Goldschmieden,Germany (Poland),51.1078852,17.0385376
+159,1931,Karlbo,Sweden,60.1200174,16.2400417
+160,1931,Freiburg im Breisgau,Germany,47.9990077,7.8421043
+161,1931,Cedarville,United States of America,42.3758493,-89.6331727
+162,1931,Elizabeth,United States of America,40.6639916,-74.2107006
+163,1932,Brooklyn,United States of America,40.6781784,-73.9441579
+164,1932,Kingston Hill,United Kingdom,51.4326453,-0.2572578
+165,1932,London,United Kingdom,51.5072178,-0.1275862
+166,1932,London,United Kingdom,51.5072178,-0.1275862
+167,1932,W¨¹rzburg,Germany,49.7913044,9.9533548
+168,1933,Voronezh,Russia,51.6683487,39.1919288
+169,1933,Lexington,United States of America,38.0405837,-84.5037164
+170,1933,Holbeach,United Kingdom,52.803991,0.013434
+171,1933,Vienna,Austria,48.2081743,16.3738189
+172,1933,Bristol,United Kingdom,51.454513,-2.58791
+173,1934,Walkerton,United States of America,41.4667113,-86.4830681
+174,1934,Agrigento,Italy,37.3088512,13.5857528
+175,1934,Ashland,United States of America,43.695318,-71.6306317
+176,1934,Boston,United States of America,42.3600825,-71.0588801
+177,1934,Stoughton,United States of America,42.9169462,-89.2178937
+178,1934,Glasgow,Scotland,55.8616704,-4.2583345
+179,1935,Paris,France,48.856614,2.3522219
+180,1935,Paris,France,48.856614,2.3522219
+181,1935,Stuttgart,W&uuml;rttemberg (Germany),48.7758459,9.1829321
+182,1935,Hamburg,Germany,53.5488282,9.9871703
+183,1935,Manchester,United Kingdom,53.4807593,-2.2426305
+184,1936,Maastricht,Netherlands,50.8513682,5.6909725
+185,1936,New York,United States of America,40.7127753,-74.0059728
+186,1936,London,United Kingdom,51.5072178,-0.1275862
+187,1936,Frankfurt-on-the-Main,Germany,50.1109221,8.6821267
+188,1936,Buenos Aires,Argentina,-34.6036844,-58.3815591
+189,1936,Peggau,Austria,47.2056107,15.3434469
+190,1936,New York,United States of America,40.7127753,-74.0059728
+191,1937,Chorley,United Kingdom,53.653511,-2.632596
+192,1937,Moscow,Russia,55.755826,37.6173
+193,1937,Neuilly-sur-Seine,France,48.884831,2.26851
+194,1937,Budapest,Austria-Hungary (Hungary),47.497912,19.040235
+195,1937,London,United Kingdom,51.5072178,-0.1275862
+196,1937,Bloomington,United States of America,40.4842027,-88.9936873
+197,1937,Cambridge,United Kingdom,52.1950788,0.1312729
+198,1938,Vienna,Austria-Hungary (Austria),48.2081743,16.3738189
+199,1938,Hillsboro,United States of America,38.1353972,-80.2131261
+200,1938,Ghent,Belgium,51.0500182,3.7303351
+202,1938,Rome,Italy,41.9027835,12.4963655
+203,1939,Bremerhaven-Lehe,Germany,53.5745837,8.5985456
+204,1939,Vukovar,Austria-Hungary (Croatia),45.3452377,19.0010204
+205,1939,H?meenkyr?,Russian Empire (Finland),61.6381294,23.196513
+206,1939,Lagow,Germany (Poland),51.165691,10.451526
+207,1939,Canton,United States of America,43.3008146,-96.5928198
+208,1943,Budapest,Austria-Hungary (Hungary),47.497912,19.040235
+209,1943,Copenhagen,Denmark,55.6760968,12.5683371
+210,1943,Hume,United States of America,39.7967015,-87.8686414
+211,1943,Sorau (Zory),Germany (Poland),51.6420121,15.1369992
+212,1944,Frankfurt-on-the-Main,Germany,50.1109221,8.6821267
+213,1944,Fars?,Denmark,56.77055,9.338168
+214,1944,San Francisco,United States of America,37.7749295,-122.4194155
+215,1944,Platteville,United States of America,42.73416,-90.4784621
+217,1944,Rymanow,Austria-Hungary (Poland),49.57642,21.86815
+218,1945,Helsinki,Russian Empire (Finland),60.1698557,24.938379
+219,1945,Vicu?a,Chile,-30.0326781,-70.7080736
+220,1945,Lochfield,Scotland,55.8294718,-4.4134442
+221,1945,Berlin,Germany,52.5200066,13.404954
+222,1945,Adelaide,Australia,-34.9284989,138.6007456
+223,1945,Olympus,United States of America,35.5174913,-86.5804473
+224,1945,Vienna,Austria,48.2081743,16.3738189
+225,1946,Canton,United States of America,42.1584324,-71.1447732
+226,1946,Yonkers,United States of America,40.9312099,-73.8987469
+227,1946,Ridgeville,United States of America,40.2892107,-85.028857
+228,1946,Calw,Germany,48.7126752,8.7425205
+229,1946,New York,United States of America,40.7127753,-74.0059728
+230,1946,Jamaica Plain,United States of America,42.3132414,-71.1141118
+231,1946,Livingston Manor,United States of America,41.9003667,-74.8282167
+232,1946,Cambridge,United States of America,42.3736158,-71.1097335
+233,1947,Rufford,United Kingdom,53.2286554,-1.4400147
+234,1947,Paris,France,48.856614,2.3522219
+235,1947,Prague,Austria-Hungary (Czech Republic),50.0755381,14.4378005
+236,1947,Prague,Austria-Hungary (Czech Republic),50.0755381,14.4378005
+237,1947,Buenos Aires,Argentina,-34.6036844,-58.3815591
+240,1947,Bradford,United Kingdom,53.7937996,-1.7563583
+241,1948,Stockholm,Sweden,59.3293235,18.0685808
+242,1948,St. Louis,United States of America,38.6270025,-90.1994042
+243,1948,Olten,Switzerland,47.3499624,7.9037033
+244,1948,London,United Kingdom,51.5072178,-0.1275862
+245,1949,Niagara Falls,Canada,43.0895577,-79.0849436
+246,1949,New Albany,United States of America,34.4942683,-89.0078418
+247,1949,Frauenfeld,Switzerland,47.5535997,8.8987541
+248,1949,Avanca,Portugal,40.8068092,-8.5666077
+249,1949,Kilmaurs,Scotland,55.639161,-4.527757
+250,1949,Tokyo,Japan,35.6761919,139.6503106
+251,1950,Hamburg,Germany,53.5488282,9.9871703
+252,1950,K?nigsh¨¹tte (Chorz¨®w),Prussia (Poland),50.3018543,18.9543584
+253,1950,Trelleck,United Kingdom,51.741594,-2.724085
+254,1950,South Norwalk,United States of America,41.0937079,-73.4187303
+255,1950,Wloclawek,Poland,52.6483303,19.0677357
+256,1950,Pittsburgh,United States of America,40.4406248,-79.9958864
+257,1950,Detroit,United States of America,42.331427,-83.0457538
+258,1950,Tonbridge,United Kingdom,51.195043,0.27568
+259,1951,Redondo Beach,United States of America,33.8491816,-118.3884078
+260,1951,Ishpeming,United States of America,46.4885469,-87.6676358
+261,1951,V?xj?,Sweden,56.8790044,14.8058522
+262,1951,Pretoria,South Africa,-25.7478676,28.2292712
+263,1951,Paris,France,48.856614,2.3522219
+264,1951,Todmorden,United Kingdom,53.716344,-2.0987969
+265,1951,Dungarvan,Ireland,52.0936763,-7.6203627
+266,1952,London,United Kingdom,51.5072178,-0.1275862
+267,1952,Liverpool,United Kingdom,53.4083714,-2.9915726
+268,1952,Bordeaux,France,44.837789,-0.57918
+269,1952,Priluka (Nova Pryluka),Russian Empire (Ukraine),49.3734042,28.6989478
+270,1952,Kaysersberg,Germany (France),48.13889,7.264023
+271,1952,Zurich,Switzerland,47.3768866,8.541694
+272,1952,Taylorville,United States of America,39.548935,-89.294533
+273,1953,Worms,Germany,49.6341372,8.3507182
+274,1953,Woodstock,United Kingdom,51.847267,-1.354091
+275,1953,Hildesheim,Germany,52.154778,9.9579652
+276,1953,Koenigsberg (Kaliningrad),Germany (Russia),51.165691,10.451526
+277,1953,Uniontown,United States of America,39.900076,-79.7164326
+278,1953,Amsterdam,Netherlands,52.3675734,4.9041389
+279,1954,Portland,United States of America,45.515232,-122.6783853
+280,1954,Oak Park,United States of America,41.8850317,-87.7845025
+281,1954,West Hartford,United States of America,41.7620842,-72.7420151
+282,1954,Ann Arbor,United States of America,42.2808256,-83.7430378
+283,1954,Auburn,United States of America,32.6098566,-85.4807825
+285,1954,Breslau (Wroclaw),Germany (Poland),51.165691,10.451526
+286,1954,Oranienburg,Germany,52.7557351,13.2408643
+287,1955,Chicago,United States of America,41.8781136,-87.6297982
+288,1955,Reykjavik,Iceland,64.1469868,-21.9407552
+289,1955,Link?ping,Sweden,58.410807,15.6213727
+290,1955,Los Angeles,United States of America,34.0522342,-118.2436849
+291,1955,Blankenburg,Germany,51.8164261,10.9773091
+292,1956,London,United Kingdom,51.5072178,-0.1275862
+293,1956,Saratov,Russia,51.5461754,46.0154123
+294,1956,Moguer,Spain,37.27464,-6.8369079
+295,1956,Paris,France,48.856614,2.3522219
+296,1956,Berlin,Germany,52.5200066,13.404954
+297,1956,Orange,United States of America,40.7706187,-74.2326478
+298,1956,London,United Kingdom,51.5072178,-0.1275862
+299,1956,Madison,United States of America,43.0721661,-89.4007501
+300,1956,Amoy,China,24.4795099,118.0894799
+301,1957,Glasgow,Scotland,55.8616704,-4.2583345
+302,1957,Mondovi,French Algeria (Algeria),36.6844589,7.748134
+303,1957,Neuch?tel,Switzerland,46.9899874,6.9292732
+304,1957,Toronto,Canada,43.653226,-79.3831843
+305,1957,Hofei,China,31.8205699,117.22901
+306,1957,Shanghai,China,31.230416,121.473701
+307,1958,Rendcombe,United Kingdom,51.78974,-1.970906
+308,1958,Moscow,Russia,55.755826,37.6173
+309,1958,Wahoo,United States of America,41.2115023,-96.6212604
+310,1958,Boulder,United States of America,40.0149856,-105.2705456
+311,1958,Montclair,United States of America,40.8259007,-74.2090053
+312,1958,Dinant,Belgium,50.2607382,4.9122308
+313,1958,Novaya Chigla,Russia,51.2221617,40.4794612
+314,1958,Vladivostok,Russia,43.1332484,131.9112975
+315,1958,Leningrad (Saint Petersburg),Russia,59.9342596,30.3350941
+316,1959,Prague,Austria-Hungary (Czech Republic),50.0755381,14.4378005
+317,1959,Modica,Italy,36.8588355,14.7608152
+318,1959,Luarca,Spain,43.5420137,-6.5359461
+319,1959,Brooklyn,United States of America,40.6781784,-73.9441579
+320,1959,London,United Kingdom,51.5072178,-0.1275862
+321,1959,Tivoli,Italy,41.959817,12.8022261
+322,1959,San Francisco,United States of America,37.7749295,-122.4194155
+323,1960,Grand Valley,United States of America,39.3124789,-108.8839938
+324,1960,Pointe-¨¤-Pitre,Guadeloupe Island,16.2370504,-61.5376272
+325,1960,Traralgon,Australia,-38.1940197,146.5336107
+326,1960,Rio de Janeiro,Brazil,-22.9068467,-43.1728965
+327,1960,Bulawayo,Southern Rhodesia (Zimbabwe),-20.1969691,28.5681258
+328,1960,Cleveland,United States of America,41.49932,-81.6943605
+329,1961,St. Paul,United States of America,44.9537029,-93.0899578
+330,1961,Dolac,Bosnia (Bosnia and Herzegovina),44.0860686,17.9900999
+331,1961,Budapest,Hungary,47.497912,19.040235
+332,1961,J?nk?ping,Sweden,57.7826137,14.1617876
+333,1961,New York,United States of America,40.7127753,-74.0059728
+334,1961,Munich,Germany,48.1351253,11.5819806
+335,1962,Vienna,Austria,48.2081743,16.3738189
+336,1962,Oxford,United Kingdom,51.7520209,-1.2577263
+337,1962,Salinas,United States of America,36.6777372,-121.6555013
+338,1962,Northampton,United Kingdom,52.237065,-0.8944421
+339,1962,Chicago,United States of America,41.8781136,-87.6297982
+340,1962,Pongaroa,New Zealand,-40.5426816,176.1909648
+341,1962,Portland,United States of America,45.515232,-122.6783853
+342,1962,Baku,Russian Empire (Azerbaijan),40.4092617,49.8670924
+343,1963,Helsa,Germany,51.2573397,9.6863827
+344,1963,Imperia,Italy,43.8896857,8.039517
+345,1963,Smyrna (Izmir),Ottoman Empire (Turkey),38.423734,27.142826
+346,1963,Melbourne,Australia,-37.8136276,144.9630576
+347,1963,Banbury,United Kingdom,52.0629009,-1.339775
+348,1963,Hampstead,United Kingdom,51.5556461,-0.1761749
+351,1963,Budapest,Austria-Hungary (Hungary),47.497912,19.040235
+352,1963,Kattowitz (Katowice),Germany (Poland),50.2648919,19.0237815
+353,1963,Hamburg,Germany,53.5488282,9.9871703
+354,1964,Cairo,Egypt,30.0444196,31.2357116
+355,1964,Paris,France,48.856614,2.3522219
+356,1964,Neisse (Nysa),Germany (Poland),51.38635105,14.84405527
+357,1964,Munich,Germany,48.1351253,11.5819806
+358,1964,Atlanta,United States of America,33.748752,-84.3876845
+359,1964,Greenville,United States of America,34.8526176,-82.3940104
+360,1964,Usman,Union of Soviet Socialist Republics (Russia),61.52401,105.318756
+361,1964,Atherton,Australia,-17.2666843,145.4768687
+362,1965,Boston,United States of America,42.3600825,-71.0588801
+363,1965,Veshenskaya,Russia,49.6315639,41.7147172
+364,1965,Nancy,France,48.692054,6.184417
+365,1965,Ainay-le-Ch?teau,France,46.709714,2.691018
+366,1965,Paris,France,48.856614,2.3522219
+368,1965,Kyoto,Japan,35.011564,135.7681489
+369,1965,New York,United States of America,40.7127753,-74.0059728
+370,1965,New York,United States of America,40.7127753,-74.0059728
+371,1966,Newburyport,United States of America,42.8125913,-70.8772751
+372,1966,Buczacz (Buchach),Austria-Hungary (Ukraine),49.064831,25.3817159
+373,1966,Berlin,Germany,52.5200066,13.404954
+374,1966,Baltimore,United States of America,39.2903848,-76.6121893
+375,1966,Halifax,Canada,44.8857087,-63.1005273
+376,1966,Guebwiller,Germany (France),47.911586,7.209336
+377,1967,Bochum,Germany,51.4818445,7.2162363
+378,1967,Cambridge,United Kingdom,52.1950788,0.1312729
+379,1967,Stainforth,United Kingdom,53.5944945,-1.0300371
+380,1967,Guatemala City,Guatemala,14.6349149,-90.5068824
+381,1967,Helsinki,Russian Empire (Finland),60.1698557,24.938379
+382,1967,Bloomsburg,United States of America,41.003698,-76.4549457
+383,1967,New York,United States of America,40.7127753,-74.0059728
+384,1967,Strassburg (Strasbourg),Germany (France),48.5734053,7.7521113
+385,1968,Kristiania (Oslo),Norway,59.9138688,10.7522454
+386,1968,Osaka,Japan,34.6937249,135.5022535
+387,1968,Urbana,United States of America,40.1105875,-88.2072697
+388,1968,Raipur,India,21.2513844,81.6296413
+389,1968,New York,United States of America,40.7127753,-74.0059728
+390,1968,Bayonne,France,43.492949,-1.474841
+391,1968,San Francisco,United States of America,37.7749295,-122.4194155
+392,1969,Gravesend,United Kingdom,51.441884,0.370759
+393,1969,Kristiania (Oslo),Norway,59.9138688,10.7522454
+394,1969,Oslo,Norway,59.9138688,10.7522454
+395,1969,the Hague,Netherlands,52.0704978,4.3006999
+396,1969,Dublin,Ireland,53.3498053,-6.2603097
+397,1969,Berlin,Germany,52.5200066,13.404954
+398,1969,Owosso,United States of America,42.9978049,-84.1766358
+399,1969,Torino,Italy,45.0703393,7.686864
+401,1969,New York,United States of America,40.7127753,-74.0059728
+402,1970,Paris,France,48.856614,2.3522219
+403,1970,Gary,United States of America,41.6020403,-87.3371523
+404,1970,Kislovodsk,Russia,43.9055914,42.7159184
+405,1970,Leipzig,Germany,51.3396955,12.3730747
+406,1970,Stockholm,Sweden,59.3293235,18.0685808
+407,1970,New York,United States of America,40.7127753,-74.0059728
+408,1970,Cresco,United States of America,43.3813568,-92.1140547
+409,1970,Norrk?ping,Sweden,58.587745,16.192421
+410,1970,Lyon,France,45.764043,4.835659
+411,1971,Hamburg,Germany,53.5488282,9.9871703
+412,1971,Pinsk,Russian Empire (Belarus),52.1181686,26.1016778
+413,1971,Parral,Chile,-36.1406484,-71.8227528
+414,1971,Burlingame,United States of America,38.7538946,-95.8349868
+415,1971,L¨¹beck,Germany,53.8654673,10.6865593
+416,1971,Budapest,Hungary,47.497912,19.040235
+417,1972,Monessen,United States of America,40.1484053,-79.8878254
+418,1972,Chicago,United States of America,41.8781136,-87.6297982
+419,1972,New York,United States of America,40.7127753,-74.0059728
+420,1972,Warwick,United Kingdom,52.282316,-1.584927
+421,1972,New York,United States of America,40.7127753,-74.0059728
+422,1972,Cologne,Germany,50.937531,6.9602786
+423,1972,New York,United States of America,40.7127753,-74.0059728
+424,1972,Newton-le-Willows,United Kingdom,53.452889,-2.63508
+425,1972,Madison,United States of America,43.0721661,-89.4007501
+426,1972,New York,United States of America,40.7127753,-74.0059728
+427,1972,Oak Park,United States of America,41.8850317,-87.7845025
+428,1973,Munich,Germany,48.1351253,11.5819806
+429,1973,Todmorden,United Kingdom,53.716344,-2.0987969
+430,1973,St. Petersburg,Russia,59.9310584,30.3609097
+431,1973,London,United Kingdom,51.5072178,-0.1275862
+432,1973,Vienna,Austria,48.2081743,16.3738189
+433,1973,Vienna,Austria,48.2081743,16.3738189
+434,1973,the Hague,Netherlands,52.0704978,4.3006999
+435,1973,F¨¹rth,Germany,49.4771169,10.988667
+436,1973,Nam Ha province,Vietnam,18.3339509,105.9054085
+437,1973,Osaka,Japan,34.6937249,135.5022535
+438,1973,Bergen,Norway,60.3912628,5.3220544
+439,1973,Cardiff,United Kingdom,51.483707,-3.1680962
+440,1974,Sterling,United States of America,41.788642,-89.6962194
+441,1974,Skattungbyn,Sweden,61.1866825,14.853163
+442,1974,Vienna,Austria,48.2081743,16.3738189
+443,1974,Svartbj?rnsbyn,Sweden,65.85,21.71667
+444,1974,J?msh?g,Sweden,56.2403103,14.5308835
+445,1974,Longlier,Belgium,49.85544,5.45288
+446,1974,Thames Ditton,United Kingdom,51.389686,-0.339189
+447,1974,Iasi,Romania,47.1584549,27.6014418
+448,1974,Paris,France,48.856614,2.3522219
+449,1974,Tabuse,Japan,33.9547155,132.0413779
+450,1974,Brighton,United Kingdom,50.8229402,-0.1362672
+451,1974,Fowey,United Kingdom,50.33499,-4.636525
+452,1975,Sydney,Australia,-33.8688197,151.2092955
+453,1975,Sarajevo,Austria-Hungary (Bosnia and Herzegovina),43.8562586,18.4130763
+454,1975,St. Petersburg,Russian Empire (Russia),59.9342596,30.3350941
+455,1975,'s Graveland,Netherlands,52.2446819,5.1314775
+456,1975,Genoa,Italy,44.4056499,8.946256
+457,1975,New York,United States of America,40.7127753,-74.0059728
+458,1975,Catanzaro,Italy,38.9097919,16.5876516
+459,1975,Philadelphia,United States of America,39.9525839,-75.1652215
+460,1975,Moscow,Russia,55.755826,37.6173
+461,1975,Copenhagen,Denmark,55.6760968,12.5683371
+462,1975,Chicago,United States of America,41.8781136,-87.6297982
+463,1975,Council,United States of America,44.7298876,-116.4381985
+464,1976,Cleveland,United States of America,41.49932,-81.6943605
+465,1976,Brooklyn,United States of America,40.6781784,-73.9441579
+466,1976,Montreal,Canada,45.5018869,-73.5673919
+467,1976,New York,United States of America,40.7127753,-74.0059728
+468,1976,Yonkers,United States of America,40.9312099,-73.8987469
+469,1976,Belfast,Northern Ireland,54.597285,-5.93012
+470,1976,Belfast,Northern Ireland,54.597285,-5.93012
+471,1976,Brooklyn,United States of America,40.6781784,-73.9441579
+472,1976,Ann Arbor,United States of America,42.2808256,-83.7430378
+473,1977,Moscow,Russia,55.755826,37.6173
+474,1977,Klippan,Sweden,56.1348998,13.1290409
+475,1977,Swanage,United Kingdom,50.608277,-1.960769
+476,1977,Sevilla,Spain,37.3890924,-5.9844589
+477,1977,Dijon,France,47.322047,5.04148
+478,1977,Wilno (Vilnius),Poland (Lithuania),54.6871555,25.2796514
+479,1977,New York,United States of America,40.7127753,-74.0059728
+481,1977,Indianapolis,United States of America,39.768403,-86.158068
+482,1977,Leeds,United Kingdom,53.8007554,-1.5490774
+483,1977,Middletown,United States of America,41.5623209,-72.6506488
+484,1978,Mitcham,United Kingdom,51.402869,-0.166709
+485,1978,Milwaukee,United States of America,43.0389025,-87.9064736
+486,1978,Leoncin,Russian Empire (Poland),52.3937748,20.5341061
+487,1978,Gr?nichen,Switzerland,47.3621015,8.0980292
+488,1978,Wilmington,United States of America,39.744655,-75.5483909
+489,1978,New York,United States of America,40.7127753,-74.0059728
+490,1978,Mit Abu al-Kawm,Egypt,30.6361844,30.9137978
+491,1978,Brest Litovsk,Russian Empire (Belarus),52.0996507,23.7636662
+492,1978,Kronshtadt,Russian Empire (Russia),59.9959303,29.7655452
+493,1978,Munich,Germany,48.1351253,11.5819806
+494,1978,Houston,United States of America,29.7604267,-95.3698028
+495,1979,London,United Kingdom,51.5072178,-0.1275862
+496,1979,Berlin,Germany,52.5200066,13.404954
+497,1979,Arlington,United States of America,44.3644133,-97.1331212
+498,1979,Castries,British West Indies (Saint Lucia),14.0110158,-60.9897239
+499,1979,Ir¨¢klion,Crete (Greece),35.3387352,25.1442126
+500,1979,Johannesburg,South Africa,-26.2041028,28.0473051
+501,1979,Newark,United Kingdom,53.0744766,-0.809773
+502,1979,Uskup (Skopje),Ottoman Empire (Republic of Macedonia),41.9981294,21.4254355
+503,1979,New York,United States of America,40.7127753,-74.0059728
+504,1979,Jhang Maghi&#257;na,India (Pakistan),31.2654657,72.3123725
+505,1979,New York,United States of America,40.7127753,-74.0059728
+506,1980,Rendcombe,United Kingdom,51.78974,-1.970906
+507,1980,New York,United States of America,40.7127753,-74.0059728
+508,1980,Boston,United States of America,42.3600825,-71.0588801
+509,1980,Omaha,United States of America,41.2565369,-95.9345034
+510,1980,&#346;eteniai,Russian Empire (Lithuania),55.3961237,24.0335576
+511,1980,Caracas,Venezuela,10.4805937,-66.9036063
+512,1980,Toulouse,France,43.604652,1.444209
+513,1980,Bradford,United States of America,42.768643,-71.0780044
+514,1980,Buenos Aires,Argentina,-34.6036844,-58.3815591
+515,1980,Chicago,United States of America,41.8781136,-87.6297982
+516,1980,Merriman,United States of America,42.9197225,-101.7007033
+517,1981,Nara,Japan,34.685109,135.8048019
+518,1981,Zloczov,Poland (Ukraine),49.80941,24.901371
+519,1981,Champaign,United States of America,40.1164204,-88.2433829
+520,1981,Ruse,Bulgaria,43.8355713,25.9656554
+521,1981,Hartford,United States of America,41.7658043,-72.6733723
+522,1981,Windsor,Canada,42.3149367,-83.0363633
+523,1981,Uppsala,Sweden,59.8585638,17.6389267
+525,1981,Dordrecht,Netherlands,51.8132979,4.6900929
+526,1981,Mount Verno,United States of America,40.9125992,-73.8370786
+527,1981,Lund,Sweden,55.7046601,13.1910073
+528,1982,Zelvas,Lithuania,55.2186369,25.100496
+529,1982,Renton,United States of America,47.4796927,-122.2079218
+530,1982,Aracataca,Colombia,10.591925,-74.186103
+531,1982,Stockholm,Sweden,59.3293235,18.0685808
+532,1982,Halmstad,Sweden,56.6743748,12.8577884
+533,1982,Tardebigg,United Kingdom,52.3226928,-2.0068986
+534,1982,Uppsala,Sweden,59.8585638,17.6389267
+535,1982,Zamora,Mexico,19.9901766,-102.2834075
+536,1982,Waltham,United States of America,42.3764852,-71.2356113
+537,1983,Neudorf,Canada,50.7131318,-103.0121315
+538,1983,Calais,France,50.95129,1.858686
+539,1983,St. Columb Minor,United Kingdom,50.417808,-5.045908
+540,1983,Hartford,United States of America,41.7658043,-72.6733723
+541,1983,Popowo,Poland,52.5325604,15.5133564
+542,1983,Lahore,India (Pakistan),31.5203696,74.3587473
+543,1983,Pittsburgh,United States of America,40.4406248,-79.9958864
+544,1984,Fort Worth,United States of America,32.7554883,-97.3307658
+545,1984,London,United Kingdom,51.5072178,-0.1275862
+546,1984,Prague,Austria-Hungary (Czech Republic),50.0755381,14.4378005
+547,1984,London,United Kingdom,51.5072178,-0.1275862
+548,1984,Munich,Germany,48.1351253,11.5819806
+549,1984,Bahia Blanca,Argentina,-38.7183177,-62.2663478
+550,1984,Klerksdorp,South Africa,-26.8598225,26.6317514
+551,1984,Gorizia,Italy,45.9401812,13.6201754
+552,1984,the Hague,Netherlands,52.0704978,4.3006999
+553,1985,New York,United States of America,40.7127753,-74.0059728
+554,1985,New York,United States of America,40.7127753,-74.0059728
+555,1985,Rome,Italy,41.9027835,12.4963655
+556,1985,Tananarive (Antananarivo),Madagascar,-18.8791902,47.5079055
+557,1985,New York,United States of America,40.7127753,-74.0059728
+558,1985,Sumter,United States of America,33.9204354,-80.3414693
+560,1985,Schroda,German-occupied Poland (Poland),52.22908,17.27607
+561,1986,San Jos¨¦,United States of America,37.33874,-121.8852525
+562,1986,Hsinchu,Taiwan,24.8138287,120.9674798
+563,1986,Berlin,Germany,52.5200066,13.404954
+564,1986,Murfreesboro,United States of America,35.8456213,-86.39027
+565,1986,Abeokuta,Nigeria,7.147502,3.3619356
+566,1986,Brooklyn,United States of America,40.6781784,-73.9441579
+567,1986,Turin,Italy,45.0703393,7.686864
+568,1986,Sighet,Romania,47.927707,23.8976506
+569,1986,Heidelberg,Germany,49.3987524,8.6724335
+570,1986,Frankfurt-on-the-Main,West Germany (Germany),50.1109221,8.6821267
+571,1986,Buchs,Switzerland,47.1655403,9.4708594
+572,1987,Chester,United States of America,43.2628476,-72.5951082
+573,1987,Rosheim,France,48.496665,7.470529
+574,1987,Pusan,Korea (South Korea),35.2100142,129.0688702
+575,1987,Brooklyn,United States of America,40.6781784,-73.9441579
+576,1987,Leningrad (Saint Petersburg),Union of Soviet Socialist Republics (Russia),59.9342596,30.3350941
+577,1987,Nagoya,Japan,35.1814506,136.9065571
+578,1987,Heredia,Costa Rica,9.9981413,-84.1197643
+579,1987,Neuenkirchen,West Germany (Germany),52.2394623,7.3714554
+580,1987,Basel,Switzerland,47.5595986,7.5885761
+581,1988,Zusamaltheim,Germany,48.5313776,10.6360613
+582,1988,Munich,Germany,48.1351253,11.5819806
+583,1988,Ludwigsburg,West Germany (Germany),48.8891149,9.1942834
+584,1988,Paris,France,48.856614,2.3522219
+585,1988,Cairo,Egypt,30.0444196,31.2357116
+586,1988,Uddingston,Scotland,55.815735,-4.079127
+587,1988,New York,United States of America,40.7127753,-74.0059728
+588,1988,Hoquiam,United States of America,46.977043,-123.8839028
+590,1988,New York,United States of America,40.7127753,-74.0059728
+591,1988,New York,United States of America,40.7127753,-74.0059728
+592,1988,Bad Kissingen,Germany,50.1986209,10.0755912
+593,1989,Montreal,Canada,45.5018869,-73.5673919
+594,1989,Chicago,United States of America,41.8781136,-87.6297982
+595,1989,Skedsmo,Norway,59.9929184,11.0421988
+596,1989,Iria Flavia,Spain,42.7459331,-8.6555896
+597,1989,York,United States of America,39.9625984,-76.727745
+598,1989,Oceanside,United States of America,40.6387141,-73.6401296
+599,1989,Taktser,Tibet (People's Republic of China),36.377869,101.8655392
+600,1989,Washington,United States of America,38.9071923,-77.0368707
+601,1989,G?rlitz,Prussia (Germany),51.1524553,14.9688941
+602,1989,Lorenzkirch,Germany,51.3560031,13.243844
+603,1990,Methuen,United States of America,42.7262016,-71.1908924
+604,1990,Chicago,United States of America,41.8781136,-87.6297982
+605,1990,Boston,United States of America,42.3600825,-71.0588801
+606,1990,Boston,United States of America,42.3600825,-71.0588801
+607,1990,Mexico City,Mexico,19.4326077,-99.133208
+608,1990,Milford,United States of America,42.1398577,-71.5163049
+609,1990,Mart,United States of America,31.5423911,-96.8336015
+610,1990,Privolnoye,Union of Soviet Socialist Republics (Russia),45.9222746,41.3115901
+611,1990,Chicago,United States of America,41.8781136,-87.6297982
+612,1990,Boston,United States of America,42.3600825,-71.0588801
+613,1990,Medicine Hat,Canada,50.0290218,-110.7031976
+614,1991,Winterthur,Switzerland,47.4988196,8.7236889
+615,1991,Willesden,United Kingdom,51.5476301,-0.2369246
+616,1991,Springs,South Africa,-26.2607243,28.4630376
+617,1991,Landsberg,Germany,48.0464144,10.8718015
+618,1991,Stuttgart,Germany,48.7758459,9.1829321
+619,1991,Rangoon (Yangon),Burma (Myanmar),16.840939,96.173526
+620,1991,Paris,France,48.856614,2.3522219
+621,1992,Montreal,Canada,45.5018869,-73.5673919
+622,1992,Pottsville,United States of America,40.6856456,-76.195499
+623,1992,Castries,Saint Lucia,14.0110158,-60.9897239
+624,1992,Shanghai,China,31.230416,121.473701
+625,1992,Lansing,United States of America,43.3609053,-91.218768
+626,1992,Aldea Chimel,Guatemala,15.5717382,-90.0097275
+627,1992,Dabrovica,Poland,51.919438,19.145136
+628,1993,Lenoir,United States of America,35.9140196,-81.5389849
+629,1993,Blackpool,United Kingdom,53.8167423,-3.0370485
+630,1993,New York,United States of America,40.7127753,-74.0059728
+631,1993,Cambridge,United States of America,42.3736158,-71.1097335
+632,1993,Lorain,United States of America,41.452819,-82.1823746
+633,1993,Derby,United Kingdom,52.9225301,-1.4746186
+634,1993,Falmouth,United States of America,38.6767372,-84.3302142
+635,1993,Qunu,South Africa,-31.7881448,28.6235619
+636,1993,Johannesburg,South Africa,-26.2041028,28.0473051
+637,1993,New York,United States of America,40.7127753,-74.0059728
+638,1993,Philadelphia,United States of America,39.9525839,-75.1652215
+639,1994,Budapest,Hungary,47.497912,19.040235
+640,1994,Budapest,Hungary,47.497912,19.040235
+641,1994,Bluefield,United States of America,37.2698395,-81.2223195
+642,1994,Breslau (Wroclaw),Germany (Poland),51.165691,10.451526
+643,1994,Uchiko,Japan,33.5329067,132.6579791
+644,1994,New Haven,United States of America,41.308274,-72.9278835
+645,1994,Baltimore,United States of America,39.2903848,-76.6121893
+646,1994,Cairo,Egypt,30.0444196,31.2357116
+647,1994,Vishneva,Poland (Belarus),51.919438,19.145136
+648,1994,Jerusalem,British Mandate of Palestine (Israel),31.768319,35.21371
+649,1994,Lethbridge,Canada,49.6956181,-112.8451067
+650,1994,Pittsburgh,United States of America,40.4406248,-79.9958864
+651,1995,Amsterdam,Netherlands,52.3675734,4.9041389
+652,1995,Mexico City,Mexico,19.4326077,-99.133208
+653,1995,Delaware,United States of America,40.2986724,-83.067965
+654,1995,Yakima,United States of America,46.6020711,-120.5058987
+655,1995,Casteld¨¤wson,Northern Ireland,54.7877149,-6.4923145
+656,1995,Wilkes-Barre,United States of America,41.2459149,-75.8813075
+657,1995,Magdeburg,Germany,52.1205333,11.6276237
+658,1995,South Bend,United States of America,41.6763545,-86.2519898
+659,1995,Warsaw,Russian Empire (Poland),52.2296756,21.0122287
+661,1995,New York,United States of America,40.7127753,-74.0059728
+662,1995,Paterson,United States of America,40.9167654,-74.171811
+663,1996,Alice,United States of America,27.7522487,-98.0697249
+664,1996,Wisbech,United Kingdom,52.666317,0.158797
+665,1996,Akron,United States of America,41.0814447,-81.5190053
+666,1996,Minnigaff,Scotland,54.967523,-4.483444
+667,1996,Victoria,Canada,48.4284207,-123.3656444
+668,1996,Bnin (K¨®rnik),Poland,52.2270232,17.0898688
+669,1996,Brisbane,Australia,-27.4704528,153.0260341
+670,1996,Basel,Switzerland,47.5595986,7.5885761
+671,1996,Wailacama,East Timor,-8.874217,125.727539
+672,1996,Dili,East Timor,-8.5568557,125.5603143
+673,1996,Rye,United States of America,40.9806535,-73.6837399
+674,1996,Aberdeen,United States of America,46.9753708,-123.8157218
+675,1996,Washington,United States of America,38.9071923,-77.0368707
+676,1997,Provo,United States of America,40.2338438,-111.6585337
+677,1997,Halifax,United Kingdom,53.72702,-1.85754
+678,1997,Lemvig,Denmark,56.5443443,8.3024871
+679,1997,New York,United States of America,40.7127753,-74.0059728
+680,1997,Timmins,Canada,48.4758208,-81.3304953
+681,1997,Leggiuno-Sangiano,Italy,45.8747686,8.6207601
+682,1997,Des Moines,United States of America,41.5868353,-93.6249593
+684,1997,Putney,United States of America,42.975268,-72.5217237
+685,1997,St. Louis,United States of America,38.6270025,-90.1994042
+686,1997,Constantine,French Algeria (Algeria),36.3570052,6.6390282
+687,1997,Wilkes-Barre,United States of America,41.2459149,-75.8813075
+688,1998,Vienna,Austria,48.2081743,16.3738189
+689,1998,Burnham-on-Sea,United Kingdom,51.240139,-2.993858
+690,1998,Santiniketan,India,23.6776471,87.6852323
+691,1998,Azinhaga,Portugal,39.3692437,-8.539144
+692,1998,Charleston,United States of America,32.7764749,-79.9310512
+693,1998,Brooklyn,United States of America,40.6781784,-73.9441579
+694,1998,Whiting,United States of America,41.6797578,-87.4944873
+695,1998,Londonderry,Northern Ireland,54.9964705,-7.3101358
+696,1998,Belfast,Northern Ireland,54.597285,-5.93012
+697,1998,Visalia,United States of America,36.3301329,-119.2966367
+698,1998,Frankfurt-on-the-Main,West Germany (Germany),50.1109221,8.6821267
+699,1998,Henan,China,34.7657099,113.75322
+700,1999,Damanhur,Egypt,31.0424566,30.4727503
+701,1999,Kingston,Canada,44.231345,-76.4809694
+702,1999,Danzig (Gdansk),Free City of Danzig (Poland),54.3520252,18.6466384
+703,1999,Waltersdorf (Niegoslawice),Germany (Poland),50.1234245,19.7340856
+705,1999,Den Helder,Netherlands,52.9562808,4.7607972
+706,1999,Waalwijk,Netherlands,51.6878954,5.0574822
+707,2000,Sioux City,United States of America,42.4963416,-96.4049408
+708,2000,Masterton,New Zealand,-40.9463736,175.667234
+709,2000,Tokyo,Japan,35.6761919,139.6503106
+710,2000,Chicago,United States of America,41.8781136,-87.6297982
+711,2000,Raleigh,United States of America,35.7795897,-78.6381787
+712,2000,Ganzhou,China,25.8310899,114.93476
+713,2000,Uppsala,Sweden,59.8585638,17.6389267
+714,2000,New York,United States of America,40.7127753,-74.0059728
+715,2000,Vienna,Austria,48.2081743,16.3738189
+716,2000,Mokpo,Korea (South Korea),34.8118351,126.3921664
+717,2000,Vitebsk,Union of Soviet Socialist Republics (Belarus),55.1926809,30.206359
+718,2000,Weimar,Germany,50.9794934,11.3235439
+719,2000,Jefferson City,United States of America,38.5767017,-92.1735164
+720,2001,Taunton,United States of America,41.900101,-71.0897674
+721,2001,Kobe,Japan,34.6900806,135.1956311
+722,2001,Philadelphia,United States of America,39.9525839,-75.1652215
+723,2001,New Haven,United States of America,41.308274,-72.9278835
+724,2001,Montclair,United States of America,40.8259007,-74.2090053
+725,2001,Gary,United States of America,41.6020403,-87.3371523
+727,2001,Los Angeles,United States of America,34.0522342,-118.2436849
+728,2001,Neston,United Kingdom,53.290584,-3.069102
+729,2001,Norwich,United Kingdom,52.6292567,1.2978802
+731,2001,Kumasi,Gold Coast (Ghana),6.6666004,-1.6162709
+732,2001,Palo Alto,United States of America,37.4418834,-122.1430195
+733,2001,Heidelberg,West Germany (Germany),51.165691,10.451526
+734,2001,Corvallis,United States of America,44.5645659,-123.2620435
+735,2002,New York,United States of America,40.7127753,-74.0059728
+736,2002,Toyama City,Japan,36.6958223,137.2137211
+737,2002,Aarberg,Switzerland,47.0420553,7.2751012
+738,2002,Tel Aviv,British Mandate of Palestine (Israel),32.0852999,34.7817676
+739,2002,Wichita,United States of America,37.6871761,-97.330053
+740,2002,Budapest,Hungary,47.497912,19.040235
+741,2002,Germiston,South Africa,-26.2258734,28.1707794
+742,2002,Chicago,United States of America,41.8781136,-87.6297982
+743,2002,Cambridge,United Kingdom,52.1950788,0.1312729
+744,2002,Plains,United States of America,32.0340508,-84.3926912
+745,2002,Washington,United States of America,38.9071923,-77.0368707
+746,2002,Toyohashi,Japan,34.7688528,137.3916837
+747,2002,Genoa,Italy,44.4056499,8.946256
+748,2003,Northfield,United States of America,44.4582983,-93.161604
+749,2003,Burlington,United States of America,42.5047161,-71.1956205
+750,2003,Syracuse,United States of America,43.0481221,-76.1474244
+751,2003,Swansea,United Kingdom,51.62144,-3.943646
+752,2003,Cape Town,South Africa,-33.9248685,18.4240553
+753,2003,Sidney,United States of America,40.2842164,-84.1554987
+754,2003,London,United Kingdom,51.5072178,-0.1275862
+755,2003,Hamadan,Iran,34.7983275,48.5148102
+756,2003,Moscow,Union of Soviet Socialist Republics (Russia),55.755826,37.6173
+757,2003,Moscow,Russia,55.755826,37.6173
+758,2003,London,United Kingdom,51.5072178,-0.1275862
+759,2004,Haifa,British Protectorate of Palestine (Israel),32.7940463,34.989571
+760,2004,Karcag,Hungary,47.3148629,20.9196518
+761,2004,Brooklyn,United States of America,40.6781784,-73.9441579
+762,2004,Gjesdal,Norway,58.8353384,6.3127272
+763,2004,Glens Falls,United States of America,43.3095164,-73.6440058
+764,2004,M¨¹rzzuschlag,Austria,47.60687,15.67171
+765,2004,New York,United States of America,40.7127753,-74.0059728
+766,2004,Seattle,United States of America,47.6062095,-122.3320708
+767,2004,Nyeri,Kenya,-0.437099,36.9580104
+768,2004,Washington,United States of America,38.9071923,-77.0368707
+769,2004,New York,United States of America,40.7127753,-74.0059728
+770,2004,New York,United States of America,40.7127753,-74.0059728
+771,2005,Menin,Belgium,50.7962549,3.1215356
+772,2005,Possum Trot,United States of America,37.0056129,-88.4305964
+773,2005,Berne,United States of America,40.6578242,-84.9519115
+774,2005,Frankfurt-on-the-Main,Germany,50.1109221,8.6821267
+775,2005,Oakland,United States of America,37.8043514,-122.2711639
+776,2005,London,United Kingdom,51.5072178,-0.1275862
+777,2005,Kalgoorlie,Australia,-30.749,121.466
+778,2005,Adelaide,Australia,-34.9284989,138.6007456
+780,2005,Cairo,Egypt,30.0444196,31.2357116
+781,2005,New York,United States of America,40.7127753,-74.0059728
+782,2005,Denver,United States of America,39.7392358,-104.990251
+783,2005,Heidelberg,Germany,49.3987524,8.6724335
+784,2006,St. Louis,United States of America,38.6270025,-90.1994042
+785,2006,Evanston,United States of America,42.0450722,-87.6876969
+786,2006,Istanbul,Turkey,41.0082376,28.9783589
+787,2006,Stanford,United States of America,37.424106,-122.1660756
+788,2006,New Haven,United States of America,41.308274,-72.9278835
+789,2006,Chittagong,British India (Bangladesh),22.3752075,91.8348606
+791,2006,Roanoke,United States of America,37.2709704,-79.9414266
+792,2006,Yukon,United States of America,27.6648274,-81.5157535
+793,2007,Bad Cannstatt,Germany,48.8084576,9.2250355
+794,2007,Moscow,Russia,55.755826,37.6173
+795,2007,New York,United States of America,40.7127753,-74.0059728
+796,2007,Boston,United States of America,42.3600825,-71.0588801
+797,2007,Kermanshah,Persia (Iran),34.3276924,47.0777685
+798,2007,Verona,Italy,45.4383842,10.9916215
+799,2007,Stroud,United Kingdom,51.745734,-2.217758
+800,2007,Halifax,United Kingdom,53.72702,-1.85754
+802,2007,Washington,United States of America,38.9071923,-77.0368707
+803,2007,Carcassonne,France,43.2132151,2.3517703
+804,2007,Plzen,Czechoslovakia (Czech Republic),49.7384314,13.3736371
+805,2008,Kyoto,Japan,35.011564,135.7681489
+806,2008,Chicago,United States of America,41.8781136,-87.6297982
+807,2008,New York,United States of America,40.7127753,-74.0059728
+808,2008,New York,United States of America,40.7127753,-74.0059728
+809,2008,Nice,France,43.7101728,7.2619532
+810,2008,Gelsenkirchen,Germany,51.5187651,7.0838411
+811,2008,Paris,France,48.856614,2.3522219
+812,2008,Chabris,France,47.25447,1.654295
+813,2008,Viipuri (Vyborg),Finland,60.7095622,28.749044
+814,2008,Tokyo,Japan,35.6761919,139.6503106
+815,2008,Nagoya,Japan,35.1814506,136.9065571
+816,2008,Nagoya,Japan,35.1814506,136.9065571
+817,2009,Chidambaram,India,11.4070449,79.6912455
+818,2009,Milwaukee,United States of America,43.0389025,-87.9064736
+819,2009,Jerusalem,British Mandate of Palestine (Israel),31.768319,35.21371
+820,2009,Los Angeles,United States of America,34.0522342,-118.2436849
+821,2009,Superior,United States of America,46.7207737,-92.1040796
+822,2009,Nitzkydorf,Romania,45.578502,21.5359019
+823,2009,Hobart,Australia,-42.8826055,147.3257196
+824,2009,San Diego,United States of America,32.715738,-117.1610838
+825,2009,London,United Kingdom,51.5072178,-0.1275862
+826,2009,Honolulu,United States of America,21.3098845,-157.8581401
+827,2009,Shanghai,China,31.230416,121.473701
+828,2009,Amherst,Canada,45.8344395,-64.2123394
+829,2009,White Plains,United States of America,41.0339862,-73.7629097
+830,2010,Springfield,United States of America,42.1014831,-72.589811
+831,2010,Changchun,China,43.8160199,125.32357
+832,2010,Mukawa,Japan,42.5747255,141.9266921
+833,2010,New York,United States of America,40.7127753,-74.0059728
+834,2010,Enterprise,United States of America,45.4262617,-117.2787815
+835,2010,Nicosia,Cyprus,35.1855659,33.3822764
+836,2010,Arequipa,Peru,-16.4090474,-71.537451
+837,2010,Batley,United Kingdom,53.717028,-1.635083
+839,2010,Sochi,Russia,43.6028079,39.7341543
+840,2010,Nizhny Tagil,Russia,57.9214912,59.9816186
+841,2011,Tel Aviv,British Mandate of Palestine (Israel),32.0852999,34.7817676
+842,2011,Pasadena,United States of America,34.1477849,-118.1445155
+843,2011,Washington,United States of America,38.9071923,-77.0368707
+844,2011,Stockholm,Sweden,59.3293235,18.0685808
+845,2011,Chicago,United States of America,41.8781136,-87.6297982
+846,2011,Echternach,Luxembourg,49.811342,6.4175245
+847,2011,Montreal,Canada,45.5018869,-73.5673919
+848,2011,Monrovia,Liberia,6.3156068,-10.8073698
+849,2011,Monrovia,Liberia,6.3156068,-10.8073698
+850,2011,Ta'izz,Yemen,13.5775886,44.0177989
+851,2011,Champaign-Urbana,United States of America,40.1105875,-88.2072697
+852,2011,Missoula,United States of America,46.8721284,-113.9940314
+853,2011,Washington,United States of America,38.9071923,-77.0368707
+854,2012,New York,United States of America,40.7127753,-74.0059728
+855,2012,Little Falls,United States of America,45.9805556,-94.3694444
+856,2012,New York,United States of America,40.7127753,-74.0059728
+857,2012,Cambridge,United States of America,42.3736158,-71.1097335
+858,2012,Gaomi,China,36.3825699,119.75568
+859,2012,Dippenhall,United Kingdom,51.2151659,-0.8319759
+860,2012,Osaka,Japan,34.6937249,135.5022535
+862,2012,Casablanca,Morocco,33.5731104,-7.5898434
+863,2012,Milwaukee,United States of America,43.0389025,-87.9064736
+864,2013,Vienna,Austria,48.2081743,16.3738189
+865,2013,Pretoria,South Africa,-25.7478676,28.2292712
+866,2013,Kibbutz Sde-Nahum,British Mandate of Palestine (Israel),32.525068,35.480855
+867,2013,Boston,United States of America,42.3600825,-71.0588801
+868,2013,Urbana,United States of America,40.1105875,-88.2072697
+869,2013,Detroit,United States of America,42.331427,-83.0457538
+870,2013,Wingham,Canada,43.8879476,-81.3116601
+871,2013,Haverhill,United States of America,42.7762015,-71.0772796
+872,2013,St. Paul,United States of America,44.9537029,-93.0899578
+873,2013,G?ttingen,Germany,51.5412804,9.9158035
+875,2013,Etterbeek,Belgium,50.8305816,4.3899848
+876,2013,Newcastle upon Tyne,United Kingdom,54.978252,-1.61778
+877,2014,Ann Arbor,United States of America,42.2808256,-83.7430378
+878,2014,Arad,Romania,46.1865606,21.3122677
+879,2014,Pleasanton,United States of America,37.6604484,-121.8757968
+880,2014,Troyes,France,48.2973451,4.0744009
+881,2014,Paris,France,48.856614,2.3522219
+882,2014,New York,United States of America,40.7127753,-74.0059728
+883,2014,Fosnav?g,Norway,62.3413767,5.631069
+884,2014,?lesund,Norway,62.4722284,6.149482
+885,2014,Vidisha,India,23.5235719,77.8139718
+886,2014,Mingora,Pakistan,34.7717466,72.3601512
+887,2014,Chiran,Japan,31.387231,130.4770912
+888,2014,Hamamatsu,Japan,34.7102752,137.7274159
+889,2014,Ikata,Japan,33.4886038,132.3542025
+890,2015,Stockholm,Sweden,59.3293235,18.0685808
+891,2015,Raton,United States of America,36.9033581,-104.4391532
+892,2015,Savur,Turkey,37.5484936,40.913211
+893,2015,Edinburgh,United Kingdom,55.953252,-3.188267
+894,2015,Ivano-Frankivsk,Ukraine,48.922633,24.711117
+895,2015,Ramelton,Ireland,55.0359,-7.64809
+896,2015,Yamanashi Prefecture,Japan,35.6635113,138.6388879
+897,2015,Zhejiang Ningbo,China,29.868336,121.54399
+899,2015,Higashimatsuyama,Japan,36.0422084,139.399972
+900,2015,Sydney,Canada,46.1367899,-60.194224
+901,2016,Paris,France,48.856614,2.3522219
+902,2016,Edinburgh,United Kingdom,55.953252,-3.188267
+903,2016,Barger-Compascuum,Netherlands,52.7548724,7.0416603
+904,2016,London,United Kingdom,51.5072178,-0.1275862
+905,2016,Helsinki,Finland,60.1698557,24.938379
+906,2016,Duluth,United States of America,46.7866719,-92.1004852
+907,2016,Fukuoka,Japan,33.5901838,130.4016888
+908,2016,Bogot¨¢,Colombia,4.7109886,-74.072092
+909,2016,Bearsden,United Kingdom,55.92169,-4.335525
+910,2016,London,United Kingdom,51.5072178,-0.1275862
+911,2016,Aberdeen,United Kingdom,57.1498891,-2.0937528

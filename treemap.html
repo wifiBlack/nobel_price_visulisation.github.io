@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nobel Prize Collapsible Tree Diagram</title>
+    <style>
+        body {
+            background: #00264C;
+            font-family: Arial, sans-serif;
+            color: #FFFFFF;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .description {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .custom-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 5px 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #000000;
+            background-color: #f3c883;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        
+        .custom-button:hover {
+            background-color: #c56f12;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <button class="custom-button" onclick="window.location.href='./索引.html'">home</button>
+    <h2 style="text-align: center;">Nobel Prize Collapsible Tree Diagram</h2>
+    <p class="description">Explore top Nobel Prize winning countries by category and continent. Countries are ranked by awards, with counts in parentheses. Click nodes to navigate.</p>
+    <div class="container"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.0.0/d3.min.js"></script>
+    <script src="./index.js"></script>
+    
+</body>
+
+</html>

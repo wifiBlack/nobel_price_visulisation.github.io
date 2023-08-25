@@ -1,0 +1,4 @@
+1.nobel.html为最终的网页效果文件
+2.nobel.js为geojson数据的汇总文件
+3.nobel_data.csv和nobel_data.json为所使用的数据集文件的两种数据格式
+4.jsonToGeojson.html是为了将json数据格式转换为geojson格式的格式化html文件

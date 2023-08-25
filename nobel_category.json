@@ -1,0 +1,65 @@
+{
+    "name": "Nobel Prizes",
+    "children": [
+        {
+            "name": "Chemistry",
+            "children": [
+                {"name": "Africa", "value": 7},
+                {"name": "Asia", "value": 17},
+                {"name": "Australia", "value": 3},
+                {"name": "Europe", "value": 102},
+                {"name": "North America", "value": 62}
+            ]
+        },
+        {
+            "name": "Economics",
+            "children": [
+                {"name": "Africa", "value": 1},
+                {"name": "Asia", "value": 6},
+                {"name": "Europe", "value": 27},
+                {"name": "North America", "value": 58}
+            ]
+        },
+        {
+            "name": "Literature",
+            "children": [
+                {"name": "Africa", "value": 8},
+                {"name": "Asia", "value": 16},
+                {"name": "Europe", "value": 74},
+                {"name": "North America", "value": 17},
+                {"name": "South America", "value": 4}
+            ]
+        },
+        {
+            "name": "Medicine",
+            "children": [
+                {"name": "Africa", "value": 4},
+                {"name": "Asia", "value": 14},
+                {"name": "Australia", "value": 8},
+                {"name": "Europe", "value": 112},
+                {"name": "North America", "value": 83},
+                {"name": "South America", "value": 4}
+            ]
+        },
+        {
+            "name": "Peace",
+            "children": [
+                {"name": "Africa", "value": 17},
+                {"name": "Asia", "value": 16},
+                {"name": "Europe", "value": 51},
+                {"name": "North America", "value": 22},
+                {"name": "South America", "value": 4}
+            ]
+        },
+        {
+            "name": "Physics",
+            "children": [
+                {"name": "Africa", "value": 2},
+                {"name": "Asia", "value": 31},
+                {"name": "Australia", "value": 2},
+                {"name": "Europe", "value": 110},
+                {"name": "North America", "value": 77}
+            ]
+        }
+    ]
+}

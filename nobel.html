@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualization of the birthplace of Nobel Prize winners around the world</title>
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #player {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 80%;
+      height: 90px;
+      padding: 10px;
+      background: rgba(100, 100, 100, 0.3);
+    }
+
+    .count {
+      position: absolute;
+      bottom: 40px;
+      left: 50px;
+      z-index: 1;
+    }
+
+    .num {
+      font-size: 26px;
+      color: #B44322;
+    }
+
+    .txt {
+      font-size: 16px;
+      color: #775032;
+    }
+
+    .demo-title {
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 18px;
+      margin: 0;
+      color: rgb(180, 180, 190);
+    }
+
+    h3 {
+      font-size: 12px;
+      font-weight: normal;
+      margin-top: 5px;
+      color: rgb(150, 150, 150);
+    }
+
+    .custom-button {
+            position: absolute;
+            top: 50px;
+            left: 25px;
+            padding: 5px 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #000000;
+            background-color: #f3c883;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        
+        .custom-button:hover {
+            background-color: #c56f12;
+            transform: scale(1.1);
+        }
+  </style>
+</head>
+
+<body>
+  <div class="demo-title">
+    <h1>Birthplace of Nobel Prize winners from 1901 to 2010</h1>
+  </div>
+  <div id="map"></div>
+  <button class="custom-button" onclick="window.location.href='./索引.html'">home</button>
+  <canvas id="player"></canvas>
+  <div class="count">
+    <div class="num"> 1000</div>
+    <div class="txt">Number</div>
+  </div>
+  <script
+    src="https://webapi.amap.com/maps?v=2.0&key=fa705bc6324f17bd9d881c9a8364cf19&plugin=AMap.Scale,AMap.ToolBar"></script>
+  <script src="https://webapi.amap.com/loca?v=2.0.0&key=fa705bc6324f17bd9d881c9a8364cf19"></script>
+  <!-- <script src="https://a.amap.com/Loca/static/loca-v2/demos/mock_data/confucius_data.js"></script> -->
+  <script src="./nobel.js"></script>
+  <script src="https://a.amap.com/Loca/static/loca-v2/demos/libs/index.aio.min.js"></script>
+  <script>
+    var map = new AMap.Map('map', {
+      zoom: 2.4,
+      showLabel: false,
+      viewMode: '3D',
+      center: [-7.3828125, 8.059229627200192],
+      mapStyle: 'amap://styles/dark',
+    });
+
+
+    var loca = new Loca.Container({
+      map,
+    });
+
+    var pl = new Loca.PointLayer({
+      zIndex: 10,
+      opacity: 1,
+    });
+
+
+    var yearRange = [1901, 2010];
+    function updateSource(curYear) {
+      let features = universities.features.filter(f => {
+        let yy = f.properties.date;
+        // let yy = f.properties.date.split('-').pop();
+        return yy <= curYear;
+      })
+      let n = features.length;
+      let dom = document.getElementsByClassName('num')[0];
+
+      dom.innerText = n;
+      var geo = new Loca.GeoJSONSource({
+        data: {
+          "type": "FeatureCollection",
+          "features": features,
+        },
+      });
+      pl.setSource(geo);
+    }
+
+    updateSource(yearRange[0])
+
+    var colors = [
+      'rgba(255, 195, 136,0.8)',
+      'rgba(255, 195, 136,0.8)',
+      'rgba(255, 178, 105,0.8)',
+      'rgba(255, 161, 94,0.8)',
+      'rgba(253, 143, 91,0.8)',
+      'rgba(249, 125, 90,0.8)',
+      'rgba(242, 108, 88,0.8)',
+      'rgba(233, 91, 86,0.8)',
+      'rgba(224, 75, 81,0.8)',
+      'rgba(213, 58, 75,0.8)',
+      'rgba(201, 44, 66,0.8)',
+      'rgba(187, 29, 54,0.8)',
+      'rgba(172, 15, 41,0.8)',
+      'rgba(156, 4, 24,0.8)',
+    ];
+
+
+
+    var style = {
+      radius: 5,
+      unit: 'px',
+      color: (index, feature) => {
+        let yy = feature.properties.date;
+        // let i = yy - 1945;
+        // let ind = i < 0 ? 0 : i >= colors.length ? colors.length - 1 : i;
+        // ind = int((int(yy) - 1900) / 10)
+        let ind = Math.floor((yy - 1900) / 10); // 计算索引
+        ind = ind < 0 ? 0 : ind >= colors.length ? colors.length - 1 : ind;
+        color = colors[ind];
+        return color;
+      },
+      borderWidth: 0,
+    }
+    pl.setStyle(style);
+    loca.add(pl);
+
+    var dat = new Loca.Dat();
+    dat.addLayer(pl, '点图层');
+
+    // 图例
+    var lengend = new Loca.Legend({
+      loca: loca,
+      title: {
+        label: '年份',
+        fontColor: 'rgba(255,255,255,0.4)',
+        fontWeight: 'normal',
+        fontSize: '16px'
+      },
+      style: {
+        backgroundColor: 'rgba(255,255,255,0.1)',
+        left: '20px',
+        bottom: '120px',
+        fontSize: '12px'
+      },
+
+      dataMap: [
+        { label: '2001年-2010年', color: colors[10] },
+
+        { label: '1991年-2000年', color: colors[9] },
+
+        { label: '1981年-1990年', color: colors[8] },
+
+        { label: '1971年-1980年', color: colors[7] },
+
+        { label: '1961年-1970年', color: colors[6] },
+
+        { label: '1951年-1960年', color: colors[5] },
+
+        { label: '1941年-1950年', color: colors[4] },
+
+        { label: '1931年-1940年', color: colors[3] },
+
+        { label: '1921年-1930年', color: colors[2] },
+
+        { label: '1911年-1920年', color: colors[1] },
+
+        { label: '1901年-1910年', color: colors[0] },
+
+
+      ],
+    });
+
+    addPlayBar();
+
+    function addPlayBar() {
+      var canvasDom = document.getElementById('player');
+
+      var _style = getComputedStyle(canvasDom);
+      let height = _style.getPropertyValue('height');
+      let width = _style.getPropertyValue('width');
+      canvasDom.height = parseInt(height.slice(0, -2));
+      canvasDom.width = parseInt(width.slice(0, -2));
+
+      var dots = [];
+      for (let i = 0; i <= 11; i++) {
+        let year = 1900 + i * 10;
+        dots.push({
+          progress: i / 11,
+          text: `${year}年`,
+        });
+      }
+
+      this.player = new PlayBar({
+        canvas: canvasDom,
+
+        option: {
+          progressTextCallback: (progress) => {
+            let text = '';
+            for (let i = 0; i < dots.length; i++) {
+              let dot = dots[i];
+              if (dot.progress === progress) {
+                text = dot.text;
+                break;
+              } else if (dot.progress > progress) {
+                break;
+              }
+            }
+            return text;
+          },
+          background: "rgba(0,0,0,0)",
+          dot: {
+            color: "#444D64",
+            radius: 6,
+            borderWidth: 4,
+            hoverColor: "#CCC",
+          },
+          progressDot: {
+            color: "#C5582D",
+            radius: 10,
+          },
+          progressColor: "#C5582D",
+          button: {
+            radius: 20,
+            color: "#B44322",
+            pause: true,
+          },
+          gap: 30,
+          step: 1 / 11,
+          // 播放总时长
+          playTimeLength: 20,
+
+          padding: 20,
+          lineColor: "#55617F",
+          lineWidth: 3,
+          fontColor: "#727272",
+          fontSize: 12,
+        },
+        data: {
+          dots: dots,
+          progress: 0,
+        }
+      });
+
+      player.play();
+      player.on('play', (e) => {
+        player.play();
+      });
+      player.on('pause', (e) => {
+        this.player.pause();
+      });
+      player.on('click', (e) => {
+        for (let i = 1; i < dots.length; i++) {
+          let cur = dots[i];
+          let pre = dots[i - 1]
+          if (cur.progress >= e.progress && pre.progress < e.progress) {
+            player.setProgress(cur.progress)
+            updateData(cur.progress)
+            break;
+          }
+        }
+      })
+
+
+      //设置重新播放
+      player.on('progress', (e) => {
+        updateData(e.progress);
+        // console.log('e.progress', e.progress);
+        if (e.progress >= 1) {
+          setTimeout(() => {
+            player.setProgress(0)
+            player.play();
+          }, 200)
+        }
+      })
+
+      function updateData(progress) {
+        let prog = progress >= 1 ? 1 : progress;
+        let len = yearRange[yearRange.length - 1] - yearRange[0]
+        let ind = len * prog + yearRange[0]
+        updateSource(ind)
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>

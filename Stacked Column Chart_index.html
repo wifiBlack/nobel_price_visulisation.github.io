@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Nobel Prize Winners by Birth Decade</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.3/d3-tip.min.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            flex-direction: column;
+            padding-top: 20px;
+            padding-left: 50px;
+        }
+
+        .chart-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .legend-container {
+            position: absolute;
+            top: 50%;
+            left: 330px;
+            transform: translateY(-50%);
+        }
+
+        .d3-tip {
+            font-size: 12px;
+            line-height: 1;
+            padding: 7px;
+            background: black;
+            color: lightgray;
+            border-radius: 5px;
+        }
+
+        .bar-label {
+            fill: white;
+            font-size: 10px;
+        }
+
+        .chart-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 17px;
+        }
+
+        .chart-description {
+            font-size: 14px;
+            margin-bottom: 150px;
+        }
+
+        .legend-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .legend {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .legend-color {
+            width: 18px;
+            height: 18px;
+            margin-right: 5px;
+        }
+
+        .custom-button {
+            position: absolute;
+            top: 30px;
+            left: 25px;
+            padding: 5px 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #000000;
+            background-color: #f3c883;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        
+        .custom-button:hover {
+            background-color: #c56f12;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <button class="custom-button" onclick="window.location.href='./索引.html'">home</button>
+    <div class="chart-title">Nobel Prize Winners by Birth Decade</div>
+    <div class="chart-description">This chart represents the distribution of Nobel Prizes in different categories based on the birth decade of the laureates. Hover over each bar to see more details.</div>
+    <div class="chart-container">
+        <div class="legend-container">
+            <div class="legend-title">Category</div>
+        </div>
+        <script>
+            var margin = { top: 30, right: 30, bottom: 40, left: 150 },
+    width = 800 - margin.left - margin.right,
+    height = 550 - margin.top - margin.bottom;
+
+var x = d3.scale.ordinal()
+    .rangeRoundBands([0, width], 0.2);
+
+var y = d3.scale.linear()
+    .rangeRound([height, 0]);
+
+var color = d3.scale.ordinal()
+    .range(["#66c2a5", "#e34a33", "#a6bddb", "#99d8c9", "#fdbb84", "#c51b8a"])
+    .domain(["Chemistry", "Economics", "Literature", "Medicine", "Peace", "Physics"]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom")
+    .tickValues(["1820", "1840", "1860", "1880", "1900", "1920", "1940", "1960", "1980"]);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom - 50)
+    .append("g")
+    .attr("transform", "translate(" + (margin.left - 100)+ "," + (margin.top - 50) + ")");
+
+var tip = d3.tip()
+    .attr('class', 'd3-tip')
+    .offset([-10, 0])
+    .html(function (d) {
+        return "Born in " + d3.select(this.parentNode).datum().Decade_Born + "s, "
+            + d.name + " Nobel Prize Count: " + (d.y1 - d.y0);
+    });
+svg.call(tip);
+
+var data = [
+    {'Decade_Born': 1810, 'Chemistry': 0.0, 'Economics': 0.0, 'Literature': 1.0, 'Medicine': 0.0, 'Peace': 0.0, 'Physics': 0.0},
+    {'Decade_Born': 1820, 'Chemistry': 0.0, 'Economics': 0.0, 'Literature': 0.0, 'Medicine': 0.0, 'Peace': 4.0, 'Physics': 0.0},
+    {'Decade_Born': 1830, 'Chemistry': 1.0, 'Economics': 0.0, 'Literature': 6.0, 'Medicine': 0.0, 'Peace': 4.0, 'Physics': 1.0},
+    {'Decade_Born': 1840, 'Chemistry': 1.0, 'Economics': 0.0, 'Literature': 4.0, 'Medicine': 6.0, 'Peace': 6.0, 'Physics': 3.0},
+    {'Decade_Born': 1850, 'Chemistry': 7.0, 'Economics': 0.0, 'Literature': 7.0, 'Medicine': 9.0, 'Peace': 7.0, 'Physics': 8.0},
+    {'Decade_Born': 1860, 'Chemistry': 9.0, 'Economics': 0.0, 'Literature': 12.0, 'Medicine': 9.0, 'Peace': 14.0, 'Physics': 9.0},
+    {'Decade_Born': 1870, 'Chemistry': 11.0, 'Economics': 0.0, 'Literature': 7.0, 'Medicine': 11.0, 'Peace': 6.0, 'Physics': 7.0},
+    {'Decade_Born': 1880, 'Chemistry': 12.0, 'Economics': 0.0, 'Literature': 11.0, 'Medicine': 12.0, 'Peace': 5.0, 'Physics': 12.0},
+    {'Decade_Born': 1890, 'Chemistry': 13.0, 'Economics': 4.0, 'Literature': 11.0, 'Medicine': 22.0, 'Peace': 2.0, 'Physics': 13.0},
+    {'Decade_Born': 1900, 'Chemistry': 17.0, 'Economics': 6.0, 'Literature': 13.0, 'Medicine': 23.0, 'Peace': 7.0, 'Physics': 28.0},
+    {'Decade_Born': 1910, 'Chemistry': 29.0, 'Economics': 16.0, 'Literature': 13.0, 'Medicine': 29.0, 'Peace': 9.0, 'Physics': 22.0},
+    {'Decade_Born': 1920, 'Chemistry': 18.0, 'Economics': 13.0, 'Literature': 7.0, 'Medicine': 32.0, 'Peace': 9.0, 'Physics': 36.0},
+    {'Decade_Born': 1930, 'Chemistry': 25.0, 'Economics': 17.0, 'Literature': 10.0, 'Medicine': 21.0, 'Peace': 9.0, 'Physics': 36.0},
+    {'Decade_Born': 1940, 'Chemistry': 31.0, 'Economics': 20.0, 'Literature': 12.0, 'Medicine': 33.0, 'Peace': 13.0, 'Physics': 27.0},
+    {'Decade_Born': 1950, 'Chemistry': 10.0, 'Economics': 11.0, 'Literature': 4.0, 'Medicine': 12.0, 'Peace': 6.0, 'Physics': 13.0},
+    {'Decade_Born': 1960, 'Chemistry': 7.0, 'Economics': 4.0, 'Literature': 1.0, 'Medicine': 6.0, 'Peace': 4.0, 'Physics': 6.0},
+    {'Decade_Born': 1970, 'Chemistry': 0.0, 'Economics': 1.0, 'Literature': 0.0, 'Medicine': 0.0, 'Peace': 3.0, 'Physics': 1.0},
+    {'Decade_Born': 1980, 'Chemistry': 0.0, 'Economics': 0.0, 'Literature': 0.0, 'Medicine': 0.0, 'Peace': 0.0, 'Physics': 0.0},
+    {'Decade_Born': 1990, 'Chemistry': 0.0, 'Economics': 0.0, 'Literature': 0.0, 'Medicine': 0.0, 'Peace': 2.0, 'Physics': 0.0}
+];
+
+color.domain(d3.keys(data[0]).filter(function (key) { return key !== "Decade_Born"; }));
+
+data.sort(function(a, b) { return a.Decade_Born - b.Decade_Born; });
+
+data.forEach(function (d) {
+    var y0 = 0;
+    d.categories = color.domain().map(function (name) {
+        return { name: name, y0: y0, y1: y0 += +d[name] };
+    });
+    d.total = d.categories[d.categories.length - 1].y1;
+});
+
+x.domain(data.map(function (d) { return d.Decade_Born; }));
+y.domain([0, d3.max(data, function (d) { return d.total; })]);
+
+svg.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + height + ")")
+    .call(xAxis);
+
+var decade = svg.selectAll(".decade")
+    .data(data)
+    .enter().append("g")
+    .attr("class", "g")
+    .attr("transform", function (d) { return "translate(" + x(d.Decade_Born) + ",0)"; });
+
+decade.selectAll("rect")
+    .data(function (d) { return d.categories; })
+    .enter().append("rect")
+    .attr("width", x.rangeBand())
+    .attr("y", function (d) { return y(d.y1); })
+    .attr("height", function (d) { return y(d.y0) - y(d.y1); })
+    .style("fill", function (d) { return color(d.name); })
+    .on("mouseover", tip.show)
+    .on("mouseout", tip.hide);
+
+// Add text labels inside the bars.
+decade.selectAll(".bar-label")
+    .data(function (d) { return d.categories; })
+    .enter().append("text")
+    .attr("class", "bar-label")
+    .attr("x", x.rangeBand() / 2)
+    .attr("y", function (d) { return y((d.y1 + d.y0) / 2); })
+    .attr("dy", ".35em")
+    .attr("text-anchor", "middle")
+    .text(function (d) { return d.y1 - d.y0 > 5 ? d.y1 - d.y0 : ""; });
+
+// Append the legend to the ".legend-container" div
+var legendDiv = d3.select(".legend-container");
+
+var legend = legendDiv.selectAll(".legend-item")
+    .data(color.domain().slice())
+    .enter().append("div")
+    .attr("class", "legend-item");
+
+legend.append("div")
+    .attr("class", "legend-color")
+    .style("background-color", color);
+
+legend.append("span")
+    .text(function(d) { return d; });
+
+
+        </script>
+    </div>
+</body>
+
+</html>

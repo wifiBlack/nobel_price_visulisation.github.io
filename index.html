@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nobel Index</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            /* background-color: #c6c1c1; */
+            background-image: url(./nobel.jpg);
+            background-size: cover;
+            background-position: center;
+            /* background-attachment: fixed; */
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            height: 100vh;
+            margin-top: -20px;
+        }
+
+        .title {
+            color:antiquewhite;
+            font-size: 60px;
+            font-weight: bold;
+            margin-top: 50px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .button {
+            padding: 20px 40px;
+            margin: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            color: antiquewhite;
+            background-color: #462e26;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin-right: 50px;
+        }
+        
+        .button:hover {
+            background-color: #8b7762;
+            transform: scale(1.15);
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="title">Visual presentation of Nobel Prize winners</h1>
+    <div class="container">
+        
+        <div class="button-container">
+            <button class="button" onclick="window.location.href='./nobel.html'" target='_blank'>Birthplace of Nobel Prize Winners from 1901 to 2010</button>
+            <button class="button" onclick="window.location.href='./treemap.html'">Nobel Prize Winning Countries by Category and Continent</button>
+            <button class="button" onclick="window.location.href='./Voronoi Tree Map_index.html'">Nobel Prize Winners: Comparing Continents in Each Field</button> 
+            <button class="button" onclick="window.location.href='./Stacked Column Chart_index.html'">Nobel Prize Winners by Birth Decade</button>
+ 
+        </div>
+    </div>
+</body>
+</html>
